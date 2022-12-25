@@ -3,10 +3,6 @@
   src: url(/Assets/Krosta.otf);
 }
 
-html {
-  background-color: #ba5834;
-}
-
-.carousel {
-  background-color: #ba5834;
+* {
+  background-color: #f8e9dd;
 }
