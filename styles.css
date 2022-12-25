@@ -1,0 +1,12 @@
+@font-face {
+  font-family: Krosta;
+  src: url(/Assets/Krosta.otf);
+}
+
+html {
+  background-color: #ba5834;
+}
+
+.carousel {
+  background-color: #ba5834;
+}
