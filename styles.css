@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Sansita&display=swap');
-}
+@import url("https://fonts.googleapis.com/css2?family=Sansita&display=swap");
 
 .navbar,
 .carousel,
@@ -8,7 +7,7 @@
 }
 
 h1 {
-    font-family: 'Sansita', sans-serif;
+  font-family: "Sansita", sans-serif;
   font-weight: bold;
   color: #376775;
 }
