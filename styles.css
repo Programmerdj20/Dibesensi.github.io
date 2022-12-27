@@ -58,15 +58,16 @@ h1 {
   src: url(Assets/Krosta.otf);
 }
 .header {
-  background-image: url(Assets/bg-800.png);
+  background-image: url(./Assets/Rosarios.png);
   background-size: cover;
   background-position: center center;
+  
 }
 
 h1 {
   font-family: Krosta;
   font-weight: bold;
-  font-size: 60px;
+  color: #376775
 }
 
 .header .contenedor-titulo {
