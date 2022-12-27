@@ -58,7 +58,7 @@ h1 {
   src: url(Assets/Krosta.otf);
 }
 .header {
-  background-image: url(./Assets/Rosarios.png);
+  background-image: url(Assets/Rosarios.png);
   background-size: cover;
   background-position: center center;
   
