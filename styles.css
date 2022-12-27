@@ -58,10 +58,9 @@ h1 {
   src: url(Assets/Krosta.otf);
 }
 .header {
-  background-image: url(Assets/bg-dibesensi.png);
-  background-position: center center;
-  
+  background-image: url(Assets/bg-800.png);
   background-size: cover;
+  background-position: center center;
 }
 
 h1 {
