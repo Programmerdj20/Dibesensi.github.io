@@ -22,143 +22,33 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <!-- NAVBAR -->
-    <!-- <nav class="navbar navbar-expand-lg navbar-light d-block">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img
-            src="Assets/Logo Navbar.png"
-            alt="Logo"
-            width="180"
-            height="35"
-          />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">INICIO</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#"></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link">TIENDA</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                CATALOGO
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">CLIENTES</a></li>
-                <li><a class="dropdown-item" href="#">VENDEDORES</a></li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#">CONTACTANOS</a></li>
-              </ul>
-            </li>
-          </ul>
-          <form class="d-flex" role="search">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Buscar"
-              aria-label="Buscar"
-            />
-            <button class="btn btn-outline-success" type="submit">
-              Buscar
-            </button>
-          </form>
-        </div>
-      </div>
-    </nav> -->
+    <!-- :::::: BARRA DE NAVEGACION :::::: -->
+    <nav class="nav">
+      <a href="#" class="marca">
+        <img class="img" src="Assets/Logo Navbar.png" alt="Logo Navbar" />
+      </a>
+      <ul id="menu" class="menu">
+        <li data-menuanchor="inicio" class="active">
+          <a href="#inicio">Inicio</a>
+        </li>
+        <li data-menuanchor="productos">
+          <a href="#productos">Productos</a>
+        </li>
+        <li data-menuanchor="contacto">
+          <a href="#contacto">Contacto</a>
+        </li>
+      </ul>
+    </nav>
 
-    <!-- SLIDER -->
-    <!-- <div
-      id="carouselExampleControls"
-      class="carousel slide"
-      data-bs-ride="carousel"
-    >
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="Assets/Slider1.png" class="d-block w-100" alt="..." />
-        </div>
-        <div class="carousel-item">
-          <img src="Assets/Sld2.png" class="d-block w-100" alt="..." />
-        </div>
-        <div class="carousel-item">
-          <img src="Assets/Sld3.png" class="d-block w-100" alt="..." />
-        </div>
-      </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleControls"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Anterior</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleControls"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Siguiente</span>
-      </button>
-    </div> -->
-
-    <!-- CATEGORIAS -->
-    <!-- <div class="container-fluid text-center p-3">
-      <h1>CATEGORIAS</h1>
-    </div> -->
-
-    <!-- CARDS -->
-    <!-- <div class="card">
-      <div class="face front">
-        <img src="Assets/Rosarios.png" alt="Rosario" />
-        <h3>ROSARIOS</h3>
-      </div>
-      <div class="face back"></div>
-    </div> -->
-    <!-- <div class="container-fluid flip-card">
-      <div class="flip-card-front">
-        <img src="Assets/Rosarios.png" alt="Rosario" />
-        <h3>ROSARIOS</h3>
-      </div>
-      <div class="flip-card-back">Contenido trasero de la tarjeta</div>
-    </div> -->
-
+    <!-- :::::: HEADER :::::: -->
     <div id="fullpage">
-      <!-- HEADER -->
       <div class="container-fluid section header p-3">
-        <div class="container-fluid text-end">
-          <img src="Assets/Logo Navbar.png" alt="" class="img-fluid" />
-        </div>
-        <div class="container-fluid text-end p-3">
+        <div class="container-fluid text-center p-3">
           <h1>Eres Escencia Divina</h1>
         </div>
-        <div class="container-fluid text-center contenedor-icono">
+        <div class="container-fluid contenedor-icono">
           <p>
-            <a href="#"><i class="fa-solid fa-chevron-down"></i></a>
+            <a href="#productos"><i class="fa-solid fa-chevron-down"></i></a>
           </p>
         </div>
       </div>

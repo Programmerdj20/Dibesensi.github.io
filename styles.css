@@ -9,6 +9,55 @@
   
 }
 
+/* :::::: CLASES DE FULLPAGE.JS :::::: */
+#fp-nav ul li a span{
+  background: #BA5834;
+}
+
+#fp-nav ul li .fp-tooltip{
+  color: #376775;
+  font-weight: bold;
+}
+
+/* :::::: MENU DE NAVEGACION :::::: */
+.nav {
+  justify-content: space-between;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  z-index: 70;
+  width: 100%;
+  margin:0;
+  padding: 10px 40px;
+
+}
+
+.nav li, .nav a {
+  display: inline-block;
+  margin: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: Krosta;
+  font-size: 19px;
+  color: #376775;
+  font-weight: bold;
+  transition: .5s ease;
+}
+
+.nav li.active {
+  border-bottom: 2px solid #BA5834;
+}
+
+.menu li a { 
+  transition: .5s ease;
+  margin: 0;
+  padding: 0;
+}
+
+.img {
+  width: 200px;
+  height: 45px;
+}
 h1 {
   font-family: Krosta;
   font-weight: bold;
@@ -23,6 +72,7 @@ h1 {
 .header .contenedor-icono {
   position: absolute;
   bottom: 4%;
+  left: 50%;
   font-size: 40px;
   animation: bajar-subir 1s ease infinite; duration timing-function delay iteration-count direction fill-mode;
 }
