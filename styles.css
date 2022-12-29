@@ -3,9 +3,11 @@
   src: url(Assets/Krosta.otf);
 }
 .header {
-  background-image: url(Assets/Rosarios.png);
+  min-height: 100vh;
   background-size: cover;
-  background-position: center center;
+  background-repeat: no-repeat center center fixed;
+  background-image: linear-gradient(rgba(5, 7, 12, 0.4), rgba(5, 7, 12, 0.4)), 
+    url(Assets/Rosarios.png);
   
 }
 
@@ -25,7 +27,7 @@
   position: fixed;
   display: flex;
   align-items: center;
-  z-index: 70;
+  z-index: 1;
   width: 100%;
   margin:0;
   padding: 10px 40px;
@@ -38,8 +40,8 @@
   text-decoration: none;
   text-transform: uppercase;
   font-family: Krosta;
-  font-size: 19px;
-  color: #376775;
+  font-size: 18px;
+  color: #f8e9dd;
   font-weight: bold;
   transition: .5s ease;
 }
@@ -61,18 +63,18 @@
 h1 {
   font-family: Krosta;
   font-weight: bold;
-  font-size: 40px;
-  color: #376775
+  font-size: 70px;
+  color:#f8e9dd;
 }
 
 .header .contenedor-titulo {
   text-align: center;
+  
 }
 
 .header .contenedor-icono {
   position: absolute;
   bottom: 4%;
-  left: 50%;
   font-size: 40px;
   animation: bajar-subir 1s ease infinite; duration timing-function delay iteration-count direction fill-mode;
 }
@@ -81,7 +83,7 @@ h1 {
   color: #f8e9dd;
 }
 
-/* ANIMACION BOTON ABAJO */
+/* :::::: ANIMACION BOTON ABAJO ::::::*/
 @keyframes bajar-subir {
   0% {
     transform: translateY(20px);
