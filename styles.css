@@ -191,6 +191,12 @@ h1 {
     width: 85% !important;
   }
 
+  .productos {
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+  }
+
   /* .img {
     display: active;
     padding-left: 25px;
