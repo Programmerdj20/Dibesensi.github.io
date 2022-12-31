@@ -2,11 +2,12 @@
   font-family: Krosta;
   src: url(Assets/Krosta.otf);
 }
+
 .header {
   min-height: 100vh;
   background-size: cover;
   background-repeat: no-repeat center center;
-  background-image: linear-gradient(rgba(5, 7, 12, 0.4), rgba(5, 7, 12, 0.4)),
+  background-image: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12, 0.5)),
     url(Assets/Rosarios.png);
 }
 
@@ -18,6 +19,23 @@
 #fp-nav ul li .fp-tooltip {
   color: #f8e9dd;
   font-weight: bold;
+}
+
+/* :::::: FLECHAS SLIDE :::::: */
+.fp-controlArrow.fp-next,
+.fp-controlArrow.fp-prev {
+  top: 90%;
+}
+
+.fp-controlArrow.fp-prev {
+  left: 70%;
+  border-width: 20% 20% 20% 0;
+  border-color: transparent #376775 transparent transparent;
+}
+
+.fp-controlArrow.fp-next {
+  border-width: 20% 0 20% 20%;
+  border-color: transparent transparent transparent #376775;
 }
 
 /* :::::: MENU DE NAVEGACION :::::: */
@@ -124,6 +142,45 @@ h1 {
   }
 }
 
+/* :::::: SECCION PRODUCTOS :::::: */
+.section productos {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.text-naranja {
+  font-family: Krosta;
+  font-weight: bold;
+  font-size: 40px;
+  color: #f8e9dd;
+  margin: 0 40px;
+}
+
+.text-azul {
+  font-family: Krosta;
+  font-weight: bold;
+  font-size: 25px;
+  color: #376775;
+  margin: 0px 40px;
+}
+
+.productos article {
+  background-position: center center;
+  background-size: cover;
+}
+
+.productos article:nth-child(1) {
+  background-image: url(Assets/Cadenas.jpeg);
+  background-repeat: no-repeat;
+}
+
+.productos article:nth-child(2) {
+  background-image: url(Assets/Pulseras.jpeg);
+}
+
+.productos article:nth-child(3) {
+  background-image: url(Assets/sl3.jpg);
+}
 /* :::::: MOVILE :::::: */
 @media (max-width: 768px) {
   body {

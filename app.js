@@ -21,14 +21,14 @@ const sectionPage = new fullpage("#fullpage", {
   // ──────────────────────────────────────────────────
   navigation: true, // Muesta la barra de navegación.
   menu: "#menu", // Menu de navegación.
-  anchors: ["inicio", "productos", "contacto"], // Anclas, las usamos para identificar cada seccion y poder acceder a ellas con el menu.
-  navigationTooltips: ["Inicio", "Productos", "Contacto"], // Tooltips que mostrara por cada boton.
+  anchors: ["inicio", "productos", "contacto", "nosotros"], // Anclas, las usamos para identificar cada seccion y poder acceder a ellas con el menu.
+  navigationTooltips: ["Inicio", "Productos", "Contacto", "Nosotros"], // Tooltips que mostrara por cada boton.
   showActiveTooltip: false, // Mostrar tooltip activa.
-  //   // ──────────────────────────────────────────────────
-  //   //   :::::: Secciones
-  //   // ──────────────────────────────────────────────────
-  //   sectionsColor: ["#000", "#c2c2c2", "#000"], // Color de fondo de cada seccion.
-  //   verticalCentered: true, // Si alineara de forma vertical los contenidos de cada seccion.
+  // ──────────────────────────────────────────────────
+  //   :::::: Secciones
+  // ──────────────────────────────────────────────────
+  sectionsColor: ["#000", "#c2c2c2", "#000"], // Color de fondo de cada seccion.
+  verticalCentered: true, // Si alineara de forma vertical los contenidos de cada seccion.
   //   // ──────────────────────────────────────────────────
   //   //   :::::: Slides
   //   // ──────────────────────────────────────────────────
