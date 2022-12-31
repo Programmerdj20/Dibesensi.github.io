@@ -16,7 +16,7 @@
 }
 
 #fp-nav ul li .fp-tooltip {
-  color: #376775;
+  color: #f8e9dd;
   font-weight: bold;
 }
 
@@ -24,7 +24,7 @@
 .nav {
   justify-content: space-around;
   position: fixed;
-  display: flex;
+  display: flexbox;
   align-items: center;
   min-width: 8vh;
   z-index: 1;
@@ -53,8 +53,8 @@
 
 .nav li,
 .nav a {
-  display: inline-flex;
-  justify-content: space-around;
+  display: inline-block;
+  justify-content: left;
   padding: 0 20px;
   text-decoration: none;
   text-transform: uppercase;
@@ -66,12 +66,16 @@
 }
 
 .nav a:hover {
-  color: #376775;
+  color: #ba5834;
 }
 
 /* .nav li.active {
   border-bottom: 2px solid #ba5834;
   padding: 0 10px;
+} */
+
+/* .logo {
+  width: 450px;
 } */
 
 .menu li a {
@@ -80,10 +84,10 @@
   padding: 0;
 }
 
-.img {
+/* .img {
   width: 200px;
   height: 45px;
-}
+} */
 
 h1 {
   font-family: Krosta;
@@ -126,25 +130,31 @@ h1 {
     overflow: hidden;
   }
 
-  .img {
-    padding-left: 25px;
-    padding-bottom: 15px;
+  .logo {
+    width: 85% !important;
   }
 
-  .ham {
+  /* .img {
+    display: active;
+    padding-left: 25px;
+    padding-bottom: 15px;
+  } */
+
+  /* .ham {
     display: block;
     position: absolute;
     top: 15px;
     right: 25px;
-  }
+  } */
 
   .nav {
-    flex-direction: column;
+    display: none;
+    /* flex-direction: column;
     align-items: flex-start;
-    padding: 25px 0;
+    padding: 25px 0; */
   }
 
-  .nav .menu {
+  /* .nav .menu {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -164,5 +174,5 @@ h1 {
   .nav .menu.activado {
     display: flex;
     background-color: #ba5834;
-  }
+  } */
 }
