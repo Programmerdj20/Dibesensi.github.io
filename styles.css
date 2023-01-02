@@ -100,6 +100,10 @@ h2 {
   color: #376775;
   margin-left: 30px;
 }
+.stroke {
+  -webkit-text-fill-color: #376775;
+  -webkit-text-stroke: 1px #f8e9dd;
+}
 
 .btn-ver {
   margin-left: 90px;
@@ -184,6 +188,7 @@ h2 {
   background-position: center center;
   background-size: cover;
 }
+
 /* :::::: MOVILE :::::: */
 @media (max-width: 768px) {
   body {
