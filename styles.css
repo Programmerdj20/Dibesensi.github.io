@@ -102,7 +102,7 @@ h2 {
 }
 .stroke {
   -webkit-text-fill-color: #376775;
-  -webkit-text-stroke: 1px #f8e9dd;
+  -webkit-text-stroke: 0.5px #f8e9dd;
 }
 
 .btn-ver {
