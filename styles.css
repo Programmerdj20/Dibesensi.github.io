@@ -92,7 +92,12 @@
   padding: 0;
 }
 
-h1,
+h1 {
+  font-family: Krosta;
+  font-weight: bold;
+  font-size: 45px;
+  color: #f8e9dd;
+}
 h2 {
   font-family: Krosta;
   font-weight: bold;
