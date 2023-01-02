@@ -22,20 +22,10 @@
 }
 
 /* :::::: FLECHAS SLIDE :::::: */
-.fp-controlArrow.fp-next,
-.fp-controlArrow.fp-prev {
-  top: 90%;
-}
 
-.fp-controlArrow.fp-prev {
-  left: 70%;
-  border-width: 20% 20% 20% 0;
-  border-color: transparent #376775 transparent transparent;
-}
-
+.fp-controlArrow.fp-prev,
 .fp-controlArrow.fp-next {
-  border-width: 20% 0 20% 20%;
-  border-color: transparent transparent transparent #376775;
+  display: none;
 }
 
 /* :::::: MENU DE NAVEGACION :::::: */
@@ -102,16 +92,24 @@
   padding: 0;
 }
 
-/* .img {
-  width: 200px;
-  height: 45px;
-} */
-
-h1 {
+h1,
+h2 {
   font-family: Krosta;
   font-weight: bold;
-  font-size: 45px;
-  color: #f8e9dd;
+  font-size: 40px;
+  color: #376775;
+  margin-left: 30px;
+}
+
+.btn-ver {
+  margin-left: 90px;
+  border-radius: 5px;
+  border: #ba5834;
+}
+
+.btn-ver:hover {
+  background-color: #376775;
+  transition: 0.3s ease;
 }
 
 .header .contenedor-titulo {
@@ -171,15 +169,20 @@ h1 {
 
 .productos article:nth-child(1) {
   background-image: url(Assets/Cadenas.jpeg);
-  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 
 .productos article:nth-child(2) {
-  background-image: url(Assets/Pulseras.jpeg);
+  background-image: url(Assets/Combinaciones.jpeg);
+  background-position: center center;
+  background-size: cover;
 }
 
 .productos article:nth-child(3) {
-  background-image: url(Assets/sl3.jpg);
+  background-image: url(Assets/Cadena_Hombre.jpeg);
+  background-position: center center;
+  background-size: cover;
 }
 /* :::::: MOVILE :::::: */
 @media (max-width: 768px) {
@@ -191,24 +194,16 @@ h1 {
     width: 85% !important;
   }
 
-  .productos {
-    align-items: center !important;
-    justify-content: center !important;
-    text-align: center !important;
+  .informacion-producto {
+    margin-top: 60%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
   }
 
-  /* .img {
-    display: active;
-    padding-left: 25px;
-    padding-bottom: 15px;
-  } */
-
-  /* .ham {
-    display: block;
-    position: absolute;
-    top: 15px;
-    right: 25px;
-  } */
+  .btn-ver {
+    margin-left: 10px;
+  }
 
   .nav {
     display: none;
@@ -216,26 +211,4 @@ h1 {
     align-items: flex-start;
     padding: 25px 0; */
   }
-
-  /* .nav .menu {
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    height: 92vh;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    display: none;
-  }
-
-  .nav .menu li {
-    width: 100%;
-    text-align: center;
-    padding: 20px;
-  }
-
-  .nav .menu.activado {
-    display: flex;
-    background-color: #ba5834;
-  } */
 }

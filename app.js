@@ -29,11 +29,11 @@ const sectionPage = new fullpage("#fullpage", {
   // ──────────────────────────────────────────────────
   sectionsColor: ["#000", "#c2c2c2", "#000"], // Color de fondo de cada seccion.
   verticalCentered: true, // Si alineara de forma vertical los contenidos de cada seccion.
-  //   // ──────────────────────────────────────────────────
-  //   //   :::::: Slides
-  //   // ──────────────────────────────────────────────────
-  //   controlArrows: true, // Flechas del slide
-  //   slidesNavigation: false, // Indicadores del slide
+  // ──────────────────────────────────────────────────
+  //   :::::: Slides
+  // ──────────────────────────────────────────────────
+  controlArrows: true, // Flechas del slide
+  slidesNavigation: true, // Indicadores del slide
   //   // ──────────────────────────────────────────────────
   //   //   :::::: Animaciones (Callbacks de FullPage.js)
   //   // ──────────────────────────────────────────────────
