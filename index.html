@@ -15,97 +15,36 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.15/fullpage.css"
-    />
+
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <!-- :::::: BARRA DE NAVEGACION :::::: -->
-    <nav class="nav">
-      <!-- <a href="#" class="marca">
-        <img class="img" src="Assets/Logo Navbar.png" alt="Logo Navbar" />
-      </a> -->
-      <ul id="menu" class="menu">
-        <li data-menuanchor="inicio" class="active">
-          <a href="#inicio"></a>
-        </li>
-        <li data-menuanchor="productos">
-          <a href="#productos"></a>
-        </li>
-        <li data-menuanchor="contacto">
-          <a href="#contacto"></a>
-        </li>
-      </ul>
-      <button class="ham" type="button">
-        <span class="br-1"></span>
-        <span class="br-2"></span>
-        <span class="br-3"></span>
-      </button>
-    </nav>
 
     <!-- :::::: HEADER :::::: -->
-    <div id="fullpage">
-      <div class="container-fluid section header">
-        <div class="container-fluid text-center">
-          <img
-            class="img-fluid logo w-50 p-2"
-            src="Assets/Logo-Dibesense.png"
-            alt="Logo"
-          />
-          <h1 class="p-2">Eres Escencia Divina</h1>
-        </div>
-        <div class="container-fluid text-center contenedor-icono">
-          <p>
-            <a href="#productos"><i class="fa-solid fa-chevron-down"></i></a>
-          </p>
+    <div id="container">
+      <div class="container-fluid text-center P-2">
+        <img
+          class="img-fluid logo w-25 P-2"
+          src="Assets/Logo-Dibesense.png"
+          alt="Logo"
+        />
+        <h3 class="">Eres Escencia Divina</h3>
+      </div>
+    </div>
+    <div class="container">
+      <div class="container text-center">
+        <div class="row">
+          <div class="gallery d-flex justify-content-center">
+            <div class="img-box"><h3>Rosarios</h3></div>
+            <div class="img-box"><h3>Cadena Mujer</h3></div>
+            <div class="img-box"><h3>Combinaciones</h3></div>
+            <div class="img-box"><h3>Cadena Hombre</h3></div>
+          </div>
         </div>
       </div>
-
-      <!-- :::::: PRODUCTOS :::::: -->
-      <div class="section productos">
-        <article class="slide">
-          <div class="container text-center">
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-6 p-2 ms-2 card">
-                <h2 class="">Cadena Mujer</h2>
-                <p>REF.1002354</p>
-                <button class="btn-ver">Ver Mas</button>
-              </div>
-            </div>
-          </div>
-        </article>
-        <article class="slide">
-          <div class="container text-center">
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-6 p-2 ms-2 card">
-                <h2 class="">Combinaciones</h2>
-                <p>REF.1002354</p>
-                <button class="btn-ver">Ver Mas</button>
-              </div>
-            </div>
-          </div>
-        </article>
-        <article class="slide">
-          <div class="container text-center">
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-6 p-2 ms-2 card">
-                <h2 class="">Cadena Hombre</h2>
-                <p>REF.1002354</p>
-                <button class="btn-ver">Ver Mas</button>
-              </div>
-            </div>
-          </div>
-        </article>
-      </div>
-
-      <div class="section">Some section</div>
-      <div class="section">Some section</div>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.15/fullpage.js"></script>
-    <script src="app.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"

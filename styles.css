@@ -3,232 +3,55 @@
   src: url(Assets/Krosta.otf);
 }
 
-.header {
-  min-height: 100vh;
-  background-size: cover;
-  background-repeat: no-repeat center center;
-  background-image: linear-gradient(rgba(5, 7, 12, 0.5), rgba(5, 7, 12, 0.5)),
-    url(Assets/Rosarios.png);
+* {
+  font-family: Krosta;
 }
 
-/* :::::: CLASES DE FULLPAGE.JS :::::: */
-#fp-nav ul li a span {
-  background: #ba5834;
-}
-
-#fp-nav ul li .fp-tooltip {
-  color: #f8e9dd;
-  font-weight: bold;
-}
-
-/* :::::: FLECHAS SLIDE :::::: */
-
-.fp-controlArrow.fp-prev,
-.fp-controlArrow.fp-next {
-  display: none;
-}
-
-/* :::::: MENU DE NAVEGACION :::::: */
-.nav {
-  justify-content: space-around;
-  position: fixed;
-  display: flexbox;
-  align-items: center;
-  min-width: 8vh;
-  z-index: 1;
+.container {
   width: 100%;
-  margin: 0;
-  padding: 10px 40px;
+  height: 100vh;
 }
-
-.ham {
-  display: none;
-  cursor: pointer;
-  border: none;
-  margin: 0;
-  padding: 0;
-  background-color: transparent;
+.img-box {
+  width: 100px;
+  height: 500px;
+  margin: 10px;
+  border-radius: 50px;
+  background-image: url(./Assets/Rosarios.png);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transition: width 0.5s;
 }
-
-.ham span {
-  display: block;
-  background-color: #f8e9dd;
-  height: 3px;
-  width: 28px;
-  margin: 10px auto;
-  border-radius: 2px;
+.img-box:nth-child(2) {
+  background: url(./Assets/Cadenas.jpeg);
+  background-size: cover;
+  background-position: center;
 }
-
-.nav li,
-.nav a {
-  display: inline-block;
-  justify-content: left;
-  padding: 0 20px;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: Krosta;
-  font-size: 18px;
-  color: #f8e9dd;
-  font-weight: bold;
-  transition: 0.5s ease;
+.img-box:nth-child(3) {
+  background: url(./Assets/Combinaciones.jpeg);
+  background-size: cover;
+  background-position: center;
 }
-
-.nav a:hover {
-  color: #ba5834;
+.img-box:nth-child(4) {
+  background: url(./Assets/Cadena_Hombre.jpeg);
+  background-size: cover;
+  background-position: center;
 }
-
-/* .nav li.active {
-  border-bottom: 2px solid #ba5834;
-  padding: 0 10px;
-} */
-
-/* .logo {
-  width: 450px;
-} */
-
-.menu li a {
-  transition: 0.5s ease;
-  margin: 0;
-  padding: 0;
-}
-
-h1 {
-  font-family: Krosta;
-  font-weight: bold;
-  font-size: 45px;
-  color: #f8e9dd;
-}
-h2 {
-  font-family: Krosta;
-  font-weight: bold;
-  font-size: 30px;
-  color: #f8e9dd;
-  /* margin-left: 30px; */
-}
-
-p {
-  color: #ba5834;
-  font-weight: bold;
-}
-
-/* .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-
-.card {
-  background-color: rgba(5, 7, 12, 0.2);
-  width: auto;
-  margin-top: 25%;
-}
-
-.btn-ver {
-  /* margin-left: 90px; */
-  font-size: 15px;
-  border-radius: 5px;
-  border: #ba5834;
-}
-
-.btn-ver:hover {
-  background-color: #376775;
-  transition: 0.3s ease;
-}
-
-.header .contenedor-titulo {
-  text-align: center;
-}
-
-.header .contenedor-icono {
+.img-box h3 {
+  color: whitesmoke;
   position: absolute;
-  bottom: 4%;
-  font-size: 40px;
-  animation: bajar-subir 1s ease infinite;
+  bottom: 0;
+  left: 40px;
+  opacity: 0;
+  transition: bottom 0.5s, opacity 0.5s;
 }
 
-.fa-solid {
-  color: #f8e9dd;
+.img-box:hover {
+  width: 300px;
+  cursor: pointer;
 }
 
-/* :::::: ANIMACION BOTON ABAJO ::::::*/
-@keyframes bajar-subir {
-  0% {
-    transform: translateY(20px);
-  }
-  75% {
-    transform: translateY(0px);
-  }
-  100% {
-    transform: translateY(20px);
-  }
-}
-
-/* :::::: SECCION PRODUCTOS :::::: */
-/* .section productos {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-.text-naranja {
-  font-family: Krosta;
-  font-weight: bold;
-  font-size: 40px;
-  color: #f8e9dd;
-  margin: 0 40px;
-}
-
-.text-azul {
-  font-family: Krosta;
-  font-weight: bold;
-  font-size: 25px;
-  color: #376775;
-  margin: 0px 40px;
-} */
-
-.productos article {
-  background-position: center center;
-  background-size: cover;
-}
-
-.productos article:nth-child(1) {
-  background-image: url(Assets/Cadenas.jpeg);
-  background-position: center center;
-  background-size: cover;
-}
-
-.productos article:nth-child(2) {
-  background-image: url(Assets/Combinaciones.jpeg);
-  background-position: center center;
-  background-size: cover;
-}
-
-.productos article:nth-child(3) {
-  background-image: url(Assets/Cadena_Hombre.jpeg);
-  background-position: center center;
-  background-size: cover;
-}
-
-/* :::::: MOVILE :::::: */
-@media (max-width: 768px) {
-  body {
-    overflow: hidden;
-  }
-
-  .logo {
-    width: 85% !important;
-  }
-
-  /* .informacion-producto {
-    margin-top: 60%;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-  } */
-
-  .nav {
-    display: none;
-    /* flex-direction: column;
-    align-items: flex-start;
-    padding: 25px 0; */
-  }
+.img-box h3:hover {
+  opacity: 1;
+  bottom: 30px;
 }
