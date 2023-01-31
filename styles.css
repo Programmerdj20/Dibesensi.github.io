@@ -69,9 +69,10 @@ h3 {
   -o-transition: all 2s easy;
 }
 .bt {
-  border-radius: 20px;
-  border-color: #f4ac94;
+  /* border-radius: 20px;
+  border-color: #f4ac94; */
   color: #376775;
+  text-decoration: none;
 
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
@@ -80,8 +81,8 @@ h3 {
 }
 
 .bt:hover {
-  background-color: #f4ac94;
-  !importanttransition: 1s easy;
+  color: #f4ac94;
+  transition: 1s easy;
   -webkit-transition: ;
   -moz-transition: ;
   -ms-transition: ;
