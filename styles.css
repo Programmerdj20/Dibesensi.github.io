@@ -70,7 +70,7 @@ h3 {
 } */
 .bt {
   border-radius: 20px;
-  border-color: #f4ac94;
+  border-color: #376775;
   color: #376775;
   text-decoration: none;
 
@@ -82,8 +82,7 @@ h3 {
 
 .bt:hover {
   color: #f4ac94;
-  background-color: #376775;
-  transition: 1s easy;
+  border-color: #376775;  transition: 1s easy;
   -webkit-transition: ;
   -moz-transition: ;
   -ms-transition: ;
@@ -97,6 +96,6 @@ h3 {
 
 .link:hover {
   color: #f4ac94;
-  background-color: #376775;
+  
   transition: 1s easy;
 
